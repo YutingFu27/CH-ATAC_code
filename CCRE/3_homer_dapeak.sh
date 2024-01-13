@@ -1,0 +1,1 @@
+for i in `ls ~/CH/CH-zf/datu/Fig2/homer/da/`;do findMotifsGenome.pl ~/CH/CH-zf/datu/Fig2/homer/da/$i/peak.bed dr11 ~/CH/CH-zf/datu/Fig2/homer/da/$i/ -size 300 -S 2 -p 5 -cache 100 -fdr 5;done
